@@ -1,0 +1,27 @@
+﻿@model List<Curso>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    @foreach(var curso in Model)
+    {
+        <div class="col-md-4">
+            <div class="card">
+                <img src="@curso.RutaImagen" class="card-img-top" alt="@curso.Nombre">
+                <div class="card-body">
+                    <h5 class="card-title">@curso.Nombre</h5>        
+                      <ul>
+                        @foreach (var precio in curso.Precios)
+                        {
+                            <li> @precio.PrecioCurso.ToString("C")</li>
+                        }
+                      </ul>
+                    <p class="card-text">@curso.Descripcion</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    }
+    
+</div>

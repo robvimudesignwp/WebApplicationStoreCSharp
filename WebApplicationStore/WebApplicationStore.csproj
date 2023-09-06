@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\image_001.jpg" />
+    <None Include="wwwroot\Images\image_002.jpg" />
+    <None Include="wwwroot\Images\image_003.jpg" />
+    <None Include="wwwroot\Images\image_004.jpg" />
+    <None Include="wwwroot\Images\image_005.jpg" />
+    <None Include="wwwroot\Images\image_006.jpg" />
+    <None Include="wwwroot\Images\image_007.jpg" />
+    <None Include="wwwroot\Images\image_008.jpg" />
+    <None Include="wwwroot\Images\image_009.jpg" />
+    <None Include="wwwroot\Images\image_010.jpg" />
+    <None Include="wwwroot\Images\image_011.jpg" />
+    <None Include="wwwroot\Images\image_012.jpg" />
+    <None Include="wwwroot\Images\image_013.jpg" />
+    <None Include="wwwroot\Images\image_014.jpg" />
+    <None Include="wwwroot\Images\image_015.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>
